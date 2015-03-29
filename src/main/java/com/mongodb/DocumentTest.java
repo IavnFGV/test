@@ -25,6 +25,8 @@ public class DocumentTest {
                 .append("embenddedDoc",new Document("x",0))
                 .append("list",asList(1,2,3));
         printJson(document);
+//        BsonDocument bsonDocument = new BsonDocument("str",new BsonString("MongoDB,Hello"));
+
 //        String s = document.getString("str");
 //        int i = document.getInteger("int");
     }
